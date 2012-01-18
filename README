@@ -1,0 +1,6 @@
+Input Capture Prototype
+==================
+
+The goal of this project is to demonstrate how to capture the keyboard-based text sent by an RFID reader or barcode scanner with an iOS application.  This application requires a scanner to be connected to the iOS device using bluetooth.  I developed the application using an IDChamp bundle from SerialIO demonstrated here: http://www.youtube.com/watch?v=-hLJOXAZulA
+
+The technique demonstrated in this application should also work with any other keyboard based scanning accessories.
