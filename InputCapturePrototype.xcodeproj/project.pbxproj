@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0303236914C67FDE00324A2B /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		0303236E14C6851D00324A2B /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		032C75B314B4AF9200A63DF2 /* InputCapturePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputCapturePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		032C75B714B4AF9200A63DF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		032C75B914B4AF9200A63DF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,6 +52,7 @@
 		032C75A814B4AF9200A63DF2 = {
 			isa = PBXGroup;
 			children = (
+				0303236E14C6851D00324A2B /* README */,
 				0303236914C67FDE00324A2B /* license.txt */,
 				032C75BD14B4AF9200A63DF2 /* InputCapturePrototype */,
 				032C75B614B4AF9200A63DF2 /* Frameworks */,
