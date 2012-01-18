@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032C75B814B4AF9200A63DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032C75B714B4AF9200A63DF2 /* UIKit.framework */; };
+		032C75BA14B4AF9200A63DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032C75B914B4AF9200A63DF2 /* Foundation.framework */; };
+		032C75BC14B4AF9200A63DF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032C75BB14B4AF9200A63DF2 /* CoreGraphics.framework */; };
+		032C75C214B4AF9200A63DF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032C75C014B4AF9200A63DF2 /* InfoPlist.strings */; };
+		032C75C414B4AF9200A63DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C75C314B4AF9200A63DF2 /* main.m */; };
+		032C75C814B4AF9200A63DF2 /* ProtoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C75C714B4AF9200A63DF2 /* ProtoAppDelegate.m */; };
+		032C75CB14B4AF9200A63DF2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032C75C914B4AF9200A63DF2 /* MainStoryboard.storyboard */; };
+		032C75CE14B4AF9200A63DF2 /* ProtoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C75CD14B4AF9200A63DF2 /* ProtoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0303236914C67FDE00324A2B /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		032C75B314B4AF9200A63DF2 /* InputCapturePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputCapturePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032C75B714B4AF9200A63DF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		032C75B914B4AF9200A63DF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		032C75BB14B4AF9200A63DF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		032C75BF14B4AF9200A63DF2 /* InputCapturePrototype-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InputCapturePrototype-Info.plist"; sourceTree = "<group>"; };
+		032C75C114B4AF9200A63DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		032C75C314B4AF9200A63DF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		032C75C514B4AF9200A63DF2 /* InputCapturePrototype-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InputCapturePrototype-Prefix.pch"; sourceTree = "<group>"; };
+		032C75C614B4AF9200A63DF2 /* ProtoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoAppDelegate.h; sourceTree = "<group>"; };
+		032C75C714B4AF9200A63DF2 /* ProtoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoAppDelegate.m; sourceTree = "<group>"; };
+		032C75CA14B4AF9200A63DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		032C75CC14B4AF9200A63DF2 /* ProtoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoViewController.h; sourceTree = "<group>"; };
+		032C75CD14B4AF9200A63DF2 /* ProtoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032C75B014B4AF9200A63DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032C75B814B4AF9200A63DF2 /* UIKit.framework in Frameworks */,
+				032C75BA14B4AF9200A63DF2 /* Foundation.framework in Frameworks */,
+				032C75BC14B4AF9200A63DF2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032C75A814B4AF9200A63DF2 = {
+			isa = PBXGroup;
+			children = (
+				0303236914C67FDE00324A2B /* license.txt */,
+				032C75BD14B4AF9200A63DF2 /* InputCapturePrototype */,
+				032C75B614B4AF9200A63DF2 /* Frameworks */,
+				032C75B414B4AF9200A63DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032C75B414B4AF9200A63DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032C75B314B4AF9200A63DF2 /* InputCapturePrototype.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032C75B614B4AF9200A63DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032C75B714B4AF9200A63DF2 /* UIKit.framework */,
+				032C75B914B4AF9200A63DF2 /* Foundation.framework */,
+				032C75BB14B4AF9200A63DF2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		032C75BD14B4AF9200A63DF2 /* InputCapturePrototype */ = {
+			isa = PBXGroup;
+			children = (
+				032C75C614B4AF9200A63DF2 /* ProtoAppDelegate.h */,
+				032C75C714B4AF9200A63DF2 /* ProtoAppDelegate.m */,
+				032C75C914B4AF9200A63DF2 /* MainStoryboard.storyboard */,
+				032C75CC14B4AF9200A63DF2 /* ProtoViewController.h */,
+				032C75CD14B4AF9200A63DF2 /* ProtoViewController.m */,
+				032C75BE14B4AF9200A63DF2 /* Supporting Files */,
+			);
+			path = InputCapturePrototype;
+			sourceTree = "<group>";
+		};
+		032C75BE14B4AF9200A63DF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032C75BF14B4AF9200A63DF2 /* InputCapturePrototype-Info.plist */,
+				032C75C014B4AF9200A63DF2 /* InfoPlist.strings */,
+				032C75C314B4AF9200A63DF2 /* main.m */,
+				032C75C514B4AF9200A63DF2 /* InputCapturePrototype-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032C75B214B4AF9200A63DF2 /* InputCapturePrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032C75D114B4AF9200A63DF2 /* Build configuration list for PBXNativeTarget "InputCapturePrototype" */;
+			buildPhases = (
+				032C75AF14B4AF9200A63DF2 /* Sources */,
+				032C75B014B4AF9200A63DF2 /* Frameworks */,
+				032C75B114B4AF9200A63DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputCapturePrototype;
+			productName = InputCapturePrototype;
+			productReference = 032C75B314B4AF9200A63DF2 /* InputCapturePrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032C75AA14B4AF9200A63DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Core Twelve, LLC";
+			};
+			buildConfigurationList = 032C75AD14B4AF9200A63DF2 /* Build configuration list for PBXProject "InputCapturePrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 032C75A814B4AF9200A63DF2;
+			productRefGroup = 032C75B414B4AF9200A63DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032C75B214B4AF9200A63DF2 /* InputCapturePrototype */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032C75B114B4AF9200A63DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032C75C214B4AF9200A63DF2 /* InfoPlist.strings in Resources */,
+				032C75CB14B4AF9200A63DF2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032C75AF14B4AF9200A63DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032C75C414B4AF9200A63DF2 /* main.m in Sources */,
+				032C75C814B4AF9200A63DF2 /* ProtoAppDelegate.m in Sources */,
+				032C75CE14B4AF9200A63DF2 /* ProtoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		032C75C014B4AF9200A63DF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032C75C114B4AF9200A63DF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		032C75C914B4AF9200A63DF2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032C75CA14B4AF9200A63DF2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032C75CF14B4AF9200A63DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		032C75D014B4AF9200A63DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032C75D214B4AF9200A63DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InputCapturePrototype/InputCapturePrototype-Prefix.pch";
+				INFOPLIST_FILE = "InputCapturePrototype/InputCapturePrototype-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		032C75D314B4AF9200A63DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InputCapturePrototype/InputCapturePrototype-Prefix.pch";
+				INFOPLIST_FILE = "InputCapturePrototype/InputCapturePrototype-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032C75AD14B4AF9200A63DF2 /* Build configuration list for PBXProject "InputCapturePrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032C75CF14B4AF9200A63DF2 /* Debug */,
+				032C75D014B4AF9200A63DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032C75D114B4AF9200A63DF2 /* Build configuration list for PBXNativeTarget "InputCapturePrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032C75D214B4AF9200A63DF2 /* Debug */,
+				032C75D314B4AF9200A63DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032C75AA14B4AF9200A63DF2 /* Project object */;
+}
